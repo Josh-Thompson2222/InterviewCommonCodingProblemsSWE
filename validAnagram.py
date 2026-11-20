@@ -1,7 +1,6 @@
 # input s1 = "danger", s2 = "garden"
 # output = True
 # Two strings are anagrams if they contain the same characters in the same frequency.
-# 
 
 def is_anagram(s1, s2):
     if len(s1) != len(s2):
@@ -34,6 +33,7 @@ if __name__ == "__main__":
         print(f'"{s1}" and "{s2}" are anagrams.')
     else:
         print(f'"{s1}" and "{s2}" are not anagrams.')
-        
+    
+    # Above code allows the user to input 2 strings.   
     # print(is_anagram("garden", "danger"))
    
